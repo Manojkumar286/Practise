@@ -12,7 +12,7 @@ public class Insta_Steps extends Baseclass {
 
 	@Given("User enter browser launch")
 	public void user_enter_browser_launch() {
-		browserLaunch("chrome");
+		browserLaunch("edge");
 
 	}
 
