@@ -1,5 +1,6 @@
 package insta.com.baseclass;
 
+import java.time.Duration;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -25,6 +26,7 @@ public class Baseclass {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		window_max();
 	}
 
