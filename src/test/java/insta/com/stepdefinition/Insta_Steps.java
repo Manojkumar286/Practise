@@ -1,6 +1,7 @@
 package insta.com.stepdefinition;
 
-import org.junit.Assert;
+
+import org.testng.Assert;
 
 import Pageobjectmanager.pageobjectmanager;
 import insta.com.baseclass.Baseclass;
