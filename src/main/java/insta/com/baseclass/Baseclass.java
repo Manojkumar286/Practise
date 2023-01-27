@@ -20,8 +20,8 @@ public class Baseclass {
 
 	public static void browserLaunch(String option) {
 		if (option.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resource\\driver\\chromedriver.exe");
-//			WebDriverManager.chromedriver().setup();
+//			System.setProperty("webdriver.chrome.driver", ".\\src\\test\\resource\\driver\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
 			
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("start-maximized"); // open Browser in maximized mode
